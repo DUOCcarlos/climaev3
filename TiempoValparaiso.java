@@ -1,6 +1,6 @@
 package org.apache.beam.examples;
 
-public class TiempoConcepcion {
+public class TiempoValparaiso {
 
     private String id;
     private String location;
@@ -140,7 +140,7 @@ public class TiempoConcepcion {
 
     @Override
     public String toString() {
-        return "TiempoConcepcion{" + "id=" + id + ", location=" + location + ", day=" + day + ", nombre_dia=" + nombredia + ", dia_descripcion=" + diadescripcion + ", maxtemp=" + maxtemp + ", mintemp=" + mintemp + ", humedad=" + humedad + ", presion_atm=" + presionatm + ", rain=" + rain + ", hora=" + hora + ", velocidad_viento=" + velocidadviento + ", direccion_viento=" + direccionviento + ", nubosidad=" + nubosidad + ", indice_uv=" + indiceuv + '}';
+        return "TiempoValparaiso{" + "id=" + id + ", location=" + location + ", day=" + day + ", nombre_dia=" + nombredia + ", dia_descripcion=" + diadescripcion + ", maxtemp=" + maxtemp + ", mintemp=" + mintemp + ", humedad=" + humedad + ", presion_atm=" + presionatm + ", rain=" + rain + ", hora=" + hora + ", velocidad_viento=" + velocidadviento + ", direccion_viento=" + direccionviento + ", nubosidad=" + nubosidad + ", indice_uv=" + indiceuv + '}';
     }
     
     public String toCSV(){
