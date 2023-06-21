@@ -37,7 +37,7 @@ import org.apache.beam.sdk.transforms.SimpleFunction;
 import org.apache.beam.sdk.values.KV;
 import org.apache.beam.sdk.values.PCollection;
 import org.json.JSONObject;
-import org.apache.beam.examples.TiempoConcepcion;
+import org.apache.beam.examples.TiempoValparaiso;
 import org.apache.beam.examples.JsonUrlReader2;
 
 public class WordCount {
@@ -61,7 +61,7 @@ public class WordCount {
 
             System.out.println("Finalizando carga URL JsonUrlReader");
 
-            for (TiempoConcepcion tiempo_concepcion : aTiempo) {
+            for (TiempoValparaiso tiempo_valparaiso : aTiempo) {
 
                 
                 String word = tiempo_concepcion.toCSV();
